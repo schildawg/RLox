@@ -1,0 +1,31 @@
+// this is a comment
+var test = "💩";
+
+var a = 0;
+var temp;
+
+
+fun fib(n) {
+    if (n < 2) return n;
+
+    return fib(n - 1) + fib(n - 2);
+}
+
+var start = clock();
+
+for (var i = 0; i < 20; i = i + 1) {
+    print fib(i);
+}
+
+class Bacon {
+    eat() {
+        print "Crunch crunch crunch!";
+    }
+}
+
+Bacon().eat();
+
+
+var end = clock();
+
+print end - start;
